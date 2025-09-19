@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>parallax</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "jost";
+        }
+        h2{
+            font-size: 64px;
+            font-weight: bold;
+            text-transform: uppercase;
+            color: aliceblue;
+            text-shadow: 5px 5px 10px #000;
+        }
+        p{
+            font-size: 40px;
+            color: rgb(0, 0, 0);
+        }
+        section{
+            width: 100%;
+            height: 100vh;
+            display: grid;
+            place-items: center;
+            text-align: center;
+            background-image: linear-gradient(
+                rgba(0,0,0,0.3),
+                rgba(0,0,0,0.3)
+            ),
+            url("https://static.resumegiants.com/wp-content/uploads/sites/25/2022/06/09105622/Professional-portfolio-736x414.webp");
+            background-repeat: no-repeat;
+            background-size: 100%auto;
+            background-attachment: fixed;
+
+        }
+        .section-2{
+             background-image: linear-gradient(
+                rgba(0,0,0,0.3),
+                rgba(0,0,0,0.3)
+            ),
+            url("https://static.vecteezy.com/system/resources/thumbnails/041/053/132/small_2x/ai-generated-beautiful-ballerina-in-long-dress-dancing-ai-generative-free-photo.jpeg");
+            background-repeat: no-repeat;
+            background-size: 100%auto;
+
+        }
+        .section-3{
+             background-image: linear-gradient(
+                rgba(0,0,0,0.3),
+                rgba(0,0,0,0.3)
+            ),
+            url("https://t3.ftcdn.net/jpg/07/89/10/14/360_F_789101446_MBq4qyP3WCzroF2AwILApvhrxTKt0CzD.jpg");
+            background-repeat: no-repeat;
+            background-size: 100%auto;
+
+        }
+        .section-4{
+             background-image: linear-gradient(
+                rgba(0,0,0,0.3),
+                rgba(0,0,0,0.3)
+            ),
+            url("https://media.istockphoto.com/id/545679848/photo/frame-from-different-burgers-with-grilled-vegetables.jpg?s=612x612&w=0&k=20&c=wv_6gXbqdePWk6QoQniP72JnqiHeEdxBH2HZ7SdnqCU=");
+            background-repeat: no-repeat;
+            background-size: 100%auto;
+
+        }
+
+    </style>
+</head>
+<body>
+    <section>
+        <div>
+            <H2>WELCOME TO MY PORTFOLIO</H2>
+            <P><span style="background-color: white;"> Kanishka Narang </span></P>
+        </div>
+    </section>
+    <section class="section-2">
+        <div>
+            <h2>PASSION</h2>
+            <P><span style="background-color: white;"> Dance and Music </span></P>
+        </div>
+         </section>
+        <section class="section-3">
+            <div>
+                <h2>PROFESSION</h2>
+                <P><span style="background-color: white;"> Software Engineer </span></P>
+            </div>
+        </section>
+        <section class="section-4">
+            <div>
+                <h2><span style="background-color: rgb(32, 31, 31);">WHAT MAKES ME HAPPY</span></h2>
+                <P><span style="background-color: white;"> Food </span></P>
+            </div>
+        </section>
+</body>
+</html>
